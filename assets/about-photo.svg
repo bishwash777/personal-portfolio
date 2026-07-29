@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Workspace illustration for Bishwash Kafle">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" rx="40" fill="url(#bg)"/>
+  <rect x="140" y="180" width="520" height="420" rx="28" fill="#f8fafc"/>
+  <rect x="178" y="222" width="180" height="140" rx="18" fill="#dbeafe"/>
+  <rect x="386" y="222" width="236" height="140" rx="18" fill="#cffafe"/>
+  <rect x="178" y="392" width="444" height="148" rx="18" fill="#e2e8f0"/>
+  <circle cx="590" cy="470" r="76" fill="#3b82f6"/>
+  <path d="M560 440h60" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M590 410v60" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M252 650c56-54 135-81 216-81 73 0 144 22 220 69" stroke="#f8fafc" stroke-width="20" stroke-linecap="round"/>
+</svg>
