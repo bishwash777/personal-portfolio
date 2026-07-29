@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bishwashkafle.surge.sh/sitemap.xml

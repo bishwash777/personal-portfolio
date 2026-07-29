@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bishwash Kafle</title>
+  <meta name="description" content="Official portfolio of Bishwash Kafle - Full Stack Web Developer. View projects, skills, and contact info." />
+  <meta name="keywords" content="Bishwash Kafle, Bishwash, Kafle, Bishwash Kafle Portfolio, bishwash777, Web Developer Nepal, Full Stack Developer" />
+  <meta name="author" content="Bishwash Kafle" />
+
+  <!-- Open Graph / Search Engine Optimization -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bishwash Kafle | Personal Portfolio" />
+  <meta property="og:description" content="Official portfolio of Bishwash Kafle - Full Stack Web Developer." />
+  <meta property="og:url" content="https://bishwashkafle.surge.sh" />
+
+  <!-- Google Schema Markup (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Bishwash Kafle",
+    "url": "https://bishwashkafle.surge.sh",
+    "sameAs": [
+      "https://github.com/bishwash777",
+      "https://linkedin.com/in/bishwash-kafle"
+    ],
+    "jobTitle": "Full Stack Developer",
+    "description": "Bishwash Kafle is a Full Stack Developer."
+  }
+  </script>
+
+  <!-- Clean, Modern Google Fonts: Outfit, Plus Jakarta Sans, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Clean Fixed Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">
+      Bishwash Kafle
+    </a>
+
+    <div class="nav-links">
+      <a href="#skills" class="nav-item">Skills</a>
+      <a href="#about" class="nav-item">About</a>
+      <a href="#portfolio" class="nav-item">Portfolio</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </div>
+
+    <div class="nav-right">
+      <div class="nav-socials">
+        <a href="https://github.com/bishwash777" target="_blank" rel="noopener" aria-label="GitHub Profile" title="GitHub Profile">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/bishwash-kafle" target="_blank" rel="noopener" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:bishwashkafle0102@gmail.com" aria-label="Email Me" title="Email Bishwash">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Dark/Light Mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <a href="#contact" class="hire-btn">Hire Me <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-overlay" id="mobile-overlay">
+    <div class="mobile-drawer">
+      <button class="mobile-close-btn" id="mobile-close-btn"><i class="fas fa-times"></i></button>
+      <div class="mobile-header">
+        <h3>Bishwash Kafle</h3>
+      </div>
+      <div class="mobile-links">
+        <a href="#skills" class="mobile-nav-item">Skills</a>
+        <a href="#about" class="mobile-nav-item">About</a>
+        <a href="#portfolio" class="mobile-nav-item">Portfolio</a>
+        <a href="#contact" class="mobile-nav-item">Contact</a>
+      </div>
+      <div class="mobile-socials">
+        <button id="mobile-theme-toggle" class="mobile-theme-toggle-btn" aria-label="Toggle Theme">
+          <i class="fas fa-moon"></i> Toggle Dark Mode
+        </button>
+        <a href="https://github.com/bishwash777" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub (@bishwash777)</a>
+        <a href="https://linkedin.com/in/bishwash-kafle" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero section-padding">
+
+    <!-- Watermark Background Text -->
+    <div class="hero-giant">
+      <h1 class="giant-text">DEVELOPER</h1>
+    </div>
+
+    <!-- Two Column Layout -->
+    <div class="hero-inner">
+
+      <!-- Left: Text Content -->
+      <div class="hero-content animate-on-scroll">
+        <div class="available-badge">
+          <span class="status-pulse"></span> Available for work
+        </div>
+        <p class="hero-subtitle">
+          Hi, I'm <span class="name-highlight">Bishwash Kafle</span> 👋
+        </p>
+        <h2 class="hero-title">
+          FULL STACK<br>WEB DEVELOPMENT
+        </h2>
+
+        <!-- Social Pills -->
+        <div class="hero-social-pills">
+          <a href="https://github.com/bishwash777" target="_blank" rel="noopener" class="social-pill github-pill">
+            <i class="fab fa-github"></i> <span>bishwash777</span>
+          </a>
+          <a href="https://linkedin.com/in/bishwash-kafle" target="_blank" rel="noopener" class="social-pill linkedin-pill">
+            <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#portfolio" class="btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+          <a href="#contact" class="btn-secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <!-- Right: Portrait Photo -->
+      <div class="hero-portrait-wrapper animate-on-scroll delay-200">
+        <div class="hero-portrait">
+          <img src="1000015441.jpg" alt="Bishwash Kafle" />
+          <div class="portrait-badge"><i class="fas fa-check-circle"></i> Bishwash Kafle</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills / Services Section -->
+  <section id="skills" class="section-padding">
+    <div class="section-header text-center">
+      <span class="section-tag">Core Competencies</span>
+      <h2 class="giant-text animate-on-scroll">SKILLS</h2>
+    </div>
+
+    <div class="max-w-6xl mx-auto services-list">
+      <!-- Item 1 -->
+      <div class="service-item animate-on-scroll delay-100">
+        <span class="service-num">01</span>
+        <div class="service-main">
+          <h3 class="service-title">FRONTEND DEVELOPMENT</h3>
+          <p class="service-desc">Building responsive, high-performance UI using React.js, HTML5, CSS3, Tailwind, and dynamic state management.</p>
+        </div>
+        <div class="service-icon"><i class="fas fa-arrow-up-right"></i></div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="service-item animate-on-scroll delay-200">
+        <span class="service-num">02</span>
+        <div class="service-main">
+          <h3 class="service-title">BACKEND ARCHITECTURE</h3>
+          <p class="service-desc">Architecting robust RESTful APIs, authentication portals, and backend services with Node.js, Express, and Java Enterprise.</p>
+        </div>
+        <div class="service-icon"><i class="fas fa-arrow-up-right"></i></div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="service-item animate-on-scroll delay-300">
+        <span class="service-num">03</span>
+        <div class="service-main">
+          <h3 class="service-title">DATABASE & DATA MODELING</h3>
+          <p class="service-desc">Designing efficient database schemas, query pipelines, and data consistency models using MongoDB, Mongoose, PostgreSQL, and SQL.</p>
+        </div>
+        <div class="service-icon"><i class="fas fa-arrow-up-right"></i></div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="service-item animate-on-scroll delay-400">
+        <span class="service-num">04</span>
+        <div class="service-main">
+          <h3 class="service-title">SYSTEM DESIGN & DEVOPS</h3>
+          <p class="service-desc">Structuring clean software solutions, Git version control, Python analytical tooling, and cloud deployment pipelines.</p>
+        </div>
+        <div class="service-icon"><i class="fas fa-arrow-up-right"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+    <div class="section-header text-center">
+      <span class="section-tag">Background & Experience</span>
+      <h2 class="giant-text animate-on-scroll">ABOUT</h2>
+    </div>
+
+    <div class="max-w-6xl mx-auto about-grid">
+      <!-- About Photo Container (Image 2: 1000028272.jpg) -->
+      <div class="about-img-container animate-on-scroll">
+        <div class="about-img-box">
+          <img src="1000028272.jpg" alt="Bishwash Kafle Photo" />
+          <div class="about-img-badge">
+            <i class="fas fa-user-code"></i> Bishwash Kafle
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Content Card -->
+      <div class="about-content animate-on-scroll delay-200">
+        <span class="section-tag">About Me</span>
+        <h3 class="about-headline">ENGINEERING SCALABLE & POWERFUL DIGITAL EXPERIENCES</h3>
+
+        <p class="about-text">
+          I am <strong>Bishwash Kafle</strong>, a passionate Full-Stack Developer specializing in modern JavaScript web platforms, Java enterprise systems, and Python data architectures.
+        </p>
+        <p class="about-text">
+          From building custom e-commerce engines and Java desktop systems to Python data frameworks, I focus on clean code, responsiveness, and scalable performance.
+        </p>
+
+        <!-- Tech Stack Pills -->
+        <div class="tech-pills">
+          <span class="tech-pill"><i class="fab fa-react"></i> React / MERN</span>
+          <span class="tech-pill"><i class="fab fa-node-js"></i> Node.js & Express</span>
+          <span class="tech-pill"><i class="fab fa-java"></i> Java Enterprise</span>
+          <span class="tech-pill"><i class="fab fa-python"></i> Python Analytics</span>
+          <span class="tech-pill"><i class="fas fa-database"></i> MongoDB / SQL</span>
+        </div>
+
+        <!-- Stat Counters -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-num">12+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">BSc</div>
+            <div class="stat-label">Computing (Ongoing)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Dedication</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section-padding">
+    <div class="section-header text-center">
+      <span class="section-tag">Featured GitHub Repositories</span>
+      <h2 class="giant-text animate-on-scroll">PORTFOLIO</h2>
+    </div>
+
+    <div class="max-w-6xl mx-auto portfolio-grid">
+
+      <!-- Project 2: Beast-Store -->
+      <a href="https://github.com/bishwash777/Beast-Store" target="_blank" rel="noopener" class="portfolio-card animate-on-scroll delay-100">
+        <div class="portfolio-banner banner-beast">
+          <div class="banner-icon"><i class="fas fa-store"></i></div>
+          <div class="portfolio-repo-tag"><i class="fab fa-github"></i> bishwash777/Beast-Store</div>
+        </div>
+        <div class="portfolio-content">
+          <span class="portfolio-category">E-Commerce Engine — 2026</span>
+          <div class="portfolio-header">
+            <h3>Beast-Store</h3>
+            <div class="portfolio-icon"><i class="fas fa-arrow-up-right"></i></div>
+          </div>
+          <p class="portfolio-desc">Handmade item e-commerce platform built for products made in Nepal, featuring product catalog and order management.</p>
+        </div>
+      </a>
+
+      <!-- Project 3: Gym Management System -->
+      <a href="https://github.com/bishwash777/Gym-Management-System-Improved-version" target="_blank" rel="noopener" class="portfolio-card animate-on-scroll delay-200">
+        <div class="portfolio-banner banner-gym">
+          <div class="banner-icon"><i class="fas fa-dumbbell"></i></div>
+          <div class="portfolio-repo-tag"><i class="fab fa-github"></i> Gym-Management-System</div>
+        </div>
+        <div class="portfolio-content">
+          <span class="portfolio-category">Java Enterprise — 2026</span>
+          <div class="portfolio-header">
+            <h3>Gym Management System</h3>
+            <div class="portfolio-icon"><i class="fas fa-arrow-up-right"></i></div>
+          </div>
+          <p class="portfolio-desc">Functional Java desktop and backend system for fitness centers managing members, subscriptions, and billing data.</p>
+        </div>
+      </a>
+
+      <!-- Project 4: Smart Data Engine -->
+      <a href="https://github.com/bishwash777/smart-data-" target="_blank" rel="noopener" class="portfolio-card p-large animate-on-scroll delay-100">
+        <div class="portfolio-banner banner-data">
+          <div class="banner-icon"><i class="fas fa-brain"></i></div>
+          <div class="portfolio-repo-tag"><i class="fab fa-github"></i> bishwash777/smart-data-</div>
+        </div>
+        <div class="portfolio-content">
+          <span class="portfolio-category">Python Data Analytics — 2025</span>
+          <div class="portfolio-header">
+            <h3>Smart Data Analytics Engine</h3>
+            <div class="portfolio-icon"><i class="fas fa-arrow-up-right"></i></div>
+          </div>
+          <p class="portfolio-desc">Intelligent Python data processing framework designed to parse, transform, and analyze datasets with high efficiency.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="section-header text-center">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="giant-text animate-on-scroll">CONTACT</h2>
+    </div>
+
+    <div class="max-w-7xl mx-auto">
+      <div class="contact-card animate-on-scroll delay-100">
+        <!-- Contact Info Panel -->
+        <div class="contact-info-panel">
+          <div class="info-panel-content">
+            <h4>LET'S TALK ABOUT YOUR PROJECT</h4>
+            <p>I am open to full-time development roles, full-stack contracts, and technical collaborations.</p>
+            
+            <div class="info-details-list">
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <span class="item-label">Email Address</span>
+                  <a href="mailto:bishwashkafle0102@gmail.com">bishwashkafle0102@gmail.com</a>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fab fa-github"></i>
+                <div>
+                  <span class="item-label">GitHub Profile</span>
+                  <a href="https://github.com/bishwash777" target="_blank" rel="noopener">github.com/bishwash777</a>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                  <span class="item-label">LinkedIn Profile</span>
+                  <a href="https://linkedin.com/in/bishwash-kafle" target="_blank" rel="noopener">Bishwash Kafle</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Side -->
+        <div class="contact-form-wrapper">
+          <h3 class="form-title">SEND A MESSAGE</h3>
+
+          <form id="contact-form" class="contact-form">
+            <!-- Web3Forms: delivers submissions to bishwashkafle0102@gmail.com -->
+            <input type="hidden" name="access_key" value="edf6f7c1-bdb7-4ff9-a5f0-da7ebfd49069" />
+            <input type="hidden" name="subject" value="New Portfolio Contact — Bishwash Kafle" />
+            <input type="hidden" name="from_name" value="Portfolio Contact Form" />
+            <input type="checkbox" name="botcheck" style="display:none;" />
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name*</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject*</label>
+              <input type="text" id="subject" name="subject_field" placeholder="Project inquiry / Hiring opportunity" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message*</label>
+              <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+
+          <div class="form-status" id="form-status"></div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <footer class="footer animate-on-scroll">
+        <div class="footer-info">
+          <p>&copy; 2026 <strong>Bishwash Kafle</strong>. All rights reserved.</p>
+        </div>
+
+        <div class="footer-badges">
+          <a href="https://github.com/bishwash777" target="_blank" rel="noopener" class="footer-social-badge">
+            <i class="fab fa-github"></i> <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/bishwash-kafle" target="_blank" rel="noopener" class="footer-social-badge linkedin-badge">
+            <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+          </a>
+          <a href="mailto:bishwashkafle0102@gmail.com" class="footer-social-badge email-badge">
+            <i class="fas fa-envelope"></i> <span>Email</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
